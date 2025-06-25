@@ -1,0 +1,27 @@
+<div *ngIf="!showReasons" class="intro">
+    <h2>Hi Shreyas!🥰</h2>
+    <p>Do you know why I love you?</p>
+    <button (click)="startReasons()">Click me 💌</button>
+  </div>
+  
+  
+  <div *ngIf="showReasons" class="reason-box">
+    <p>{{ reasons[currentIndex] }}</p>
+    <button (click)="nextReason()">Next..💗</button>
+  </div>
+  
+  <div *ngIf="showFinalMessage" class="intro">
+    <h2>I love you for everything you are 😘</h2>
+    <p>You are my safe place, my best friend, my heart. </p>
+    <p> I am forever yours!!</p>
+  
+    <iframe width="300" height="170"
+        src="https://www.youtube.com/embed/YQ-qToZUybM?autoplay=1&mute=0"
+        title="YouTube player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+  </div>
+  
+  

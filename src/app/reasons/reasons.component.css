@@ -1,0 +1,36 @@
+.intro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align:centre;
+    padding: 50px 20px;
+    font-size: 20px;
+    color:#444;
+    }
+    
+    .reason-box{
+    border: 2px solid #ff90b3;
+    padding: 20px;
+    text-align: centre;
+    border-radius: 10px;
+    background-color: #fff0f6;
+    max-width: 400px;
+    margin: 20px auto;
+    font-size: 18px;
+    }
+    
+    button{
+    margin-top: 20px;
+    background-color: #ff90b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    }
+    
+    button:hover{
+    background-color: #ff4d88;
+    }
